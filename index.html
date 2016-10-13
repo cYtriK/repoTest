@@ -1,5 +1,10 @@
 <html><head>
-
+	<script>
+	document.getElementById("frame1").contentWindow.document.body.onclick = 
+		function() {
+		  alert("iframe clicked");
+		}
+	</script>
 	<style>
 #wrapper {
 	width: 256px; height: 153px; padding: 0; overflow: hidden;
